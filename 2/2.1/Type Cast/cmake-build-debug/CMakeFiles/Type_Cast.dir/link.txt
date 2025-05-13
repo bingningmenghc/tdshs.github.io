@@ -1,0 +1,3 @@
+"D:\CLion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Type_Cast.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\Type_Cast.dir/objects.a @CMakeFiles\Type_Cast.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Type_Cast.dir/objects.a -Wl,--no-whole-archive -o Type_Cast.exe -Wl,--out-implib,libType_Cast.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Type_Cast.dir\linklibs.rsp

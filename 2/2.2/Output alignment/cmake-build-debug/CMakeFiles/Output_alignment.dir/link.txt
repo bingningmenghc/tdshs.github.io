@@ -1,0 +1,3 @@
+"D:\CLion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Output_alignment.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\Output_alignment.dir/objects.a @CMakeFiles\Output_alignment.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Output_alignment.dir/objects.a -Wl,--no-whole-archive -o Output_alignment.exe -Wl,--out-implib,libOutput_alignment.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Output_alignment.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+"D:\CLion\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\symbolic_constant.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\symbolic_constant.dir/objects.a @CMakeFiles\symbolic_constant.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\symbolic_constant.dir/objects.a -Wl,--no-whole-archive -o symbolic_constant.exe -Wl,--out-implib,libsymbolic_constant.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\symbolic_constant.dir\linklibs.rsp
